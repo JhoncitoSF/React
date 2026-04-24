@@ -68,14 +68,14 @@ function RegistroForm() {
                     </button>
                 </form>
 
-                {/* Renderizado condicional: confirmación */}
+                
                 {confirmado && (
                     <div className="confirmacion">
                         ¡Registro exitoso! Bienvenido.
                     </div>
                 )}
 
-                {/* Renderizado condicional: vista previa */}
+               
                 {hayDatos && !confirmado && (
                     <div className="preview">
                         <p className="preview-titulo">Vista previa</p>
